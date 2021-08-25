@@ -7,7 +7,7 @@ mkShell {
     findutils
     git
     jq
-    nix
+    nixUnstable
     cargo
     curl
     rsync
