@@ -1,5 +1,5 @@
 #!/usr/bin/env nix-shell
-#!nix-shell -i bash -p awscli -I nixpkgs=channel:nixos-unstable-small
+#!nix-shell -i bash -p awscli -I nixpkgs=channel:nixos-21.05
 
 REPORT_NAME=$1
 UPLOAD_DEST=$2
