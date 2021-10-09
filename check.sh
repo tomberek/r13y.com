@@ -7,7 +7,7 @@ set -eux
 #export LOCALE_ARCHIVE=/run/current-system/sw/lib/locale/locale-archive
 
 function nixpkgs_rev() (
-    curl https://channels.nix.gsc.io/nixos-unstable/latest | cut -d' ' -f1
+    curl https://channels.nix.gsc.io/nixos-unstable-small/latest | cut -d' ' -f1
 )
 
 function main() {
